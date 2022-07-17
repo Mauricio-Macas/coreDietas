@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-nxzik=##*m9k2pd8dpi^2mi@#tskzomc(bqgn#hf97h(m%2gst
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1','core-dietas.herokuapp.com']
 MESSAGE_STORAGE = "django.contrib.messages.storage.cookie.CookieStorage"
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
